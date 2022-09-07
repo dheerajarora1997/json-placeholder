@@ -8,6 +8,8 @@ A static json file is a json file that contains data that does not change over t
 
 https://json-placeholder.pages.dev/{your-file-name}
 
+https://dheerajarora1997.github.io/json-placeholder/{your-file-name}
+
 #### Github Repositories
 https://github.com/dheerajarora1997/json-placeholder
 
