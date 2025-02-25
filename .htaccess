@@ -1,4 +1,5 @@
 RewriteEngine On
 
-# Redirect /quotes to /quotes.json
-RewriteRule ^quotes$ /quotes.json [L]
+# Redirect requests without .json to their respective .json file
+RewriteCond %{REQUEST_FILENAME}.json -f
+RewriteRule ^(.+)$ $1.json [L]
