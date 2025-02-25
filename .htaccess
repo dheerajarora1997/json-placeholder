@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redirect /quotes to /quotes.json
+RewriteRule ^quotes$ /quotes.json [L]
